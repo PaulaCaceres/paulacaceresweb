@@ -1,0 +1,209 @@
+:root {
+  --bg-color-main: #212529;
+  --bg-color-main-alt: #fdfdfd;
+  --bg-color-snd: #d8d8d8;
+  --txt-color-main: #f24b4b;
+  --txt-color-snd: #d8d8d8;
+  --txt-color-dark: #212529;
+  --bg-color-uxui: #f2a03d;
+  --bg-color-webdev: #f24444;
+  --bg-color-progrob: #ecb00c;
+  --bg-color-dis: #324fa6;
+  --bg-color-res: #f1bd2e;
+}
+
+body {
+  background-color: var(--bg-color-main);
+}
+
+p {
+  color:white;
+}
+img {
+  width: 50%;
+}
+
+/* TITULO */
+
+#site-cover {
+  background-image: url(../images/negro-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+
+#site-jumbotron-title {
+  background-color: transparent;
+  text-align: center;
+  /* border-bottom: 1px solid;
+  border-color: var(--txt-color-main); */
+}
+
+#site-title {
+  color: var(--txt-color-main);
+}
+
+#site-subtitle {
+  color: var(--txt-color-main);
+}
+
+/* COLLAPSES */
+
+/* .container-bar {
+  border: 1px solid;
+  border-color: var(--txt-color-main);
+} */
+
+#collapse-header-aboutme {
+  background-color: var(--bg-color-main);
+  color: var(--txt-color-main);
+  text-align: center;
+}
+
+#collapse-body-aboutme {
+  background-color: var(--bg-color-main);
+  color: var(--txt-color-main);
+  text-align: center;
+}
+
+#collapse-header-contact {
+  background-color: var(--bg-color-main);
+  color: var(--txt-color-main);
+  text-align: center;
+}
+
+#collapse-body-contact {
+  background-color: var(--bg-color-main);
+  color: var(--txt-color-main);
+  text-align: center;
+}
+
+#collapse-header-experience {
+  background-color: var(--bg-color-main);
+  color: var(--txt-color-main);
+  text-align: center;
+}
+
+#collapse-body-experience {
+  background-color: var(--bg-color-main);
+  color: var(--txt-color-main);
+  text-align: center;
+}
+
+/* TARJETAS VERTICALES (CIRCULOS) */
+
+.card-vert-uxui {
+  background-color: transparent;
+  color: var(--txt-color-main);
+}
+
+.card-vert-webdev {
+  background-color: transparent;
+  color: var(--txt-color-main);
+}
+
+.card-vert-progrob {
+  color: var(--txt-color-main);
+  background-color: transparent;
+}
+
+.card-vert-dis {
+  color: var(--txt-color-main);
+  background-color: transparent;
+}
+
+.card-vert-res {
+  color: var(--txt-color-main);
+  background-color: transparent;
+}
+
+.card-a:link, .card-a:visited, .card-a:active {
+  color: var(--bg-color-main);
+  text-decoration: none;
+  text-align: center;
+}
+
+.card-title:hover {
+  color: var(--txt-color-main);
+  text-decoration: none;
+}
+
+/* SECCIONES */
+
+#section1 {
+  color: var(--txt-color-main);
+}
+
+#section2 {
+  color: var(--txt-color-main);
+}
+
+#section3 {
+  color: var(--txt-color-main);
+}
+
+#section4 {
+  color: var(--txt-color-main);
+}
+
+#section5 {
+  color: var(--txt-color-main);
+}
+
+/* TARJETAS HORIZONTALES */
+
+.hor-card-img {
+  /* clip-path: inset(30% 0% 30% 0%); */
+  height: 100%;
+}
+
+.card-hor-uxui {
+  background-color: var(--bg-color-snd);
+  color: var(--txt-color-snd);
+}
+
+.card-jumbo-uxui {
+  background-color: var(--bg-color-main);
+  color: var(--txt-color-main);
+}
+
+.card-hor-webdev {
+  background-color: var(--bg-color-snd);
+  color: var(--txt-color-snd);
+}
+
+.card-jumbo-webdev {
+  background-color: var(--bg-color-main);
+  color: var(--txt-color-main);
+}
+
+.card-hor-progrob {
+  background-color: var(--bg-color-snd);
+  color: var(--txt-color-snd);
+}
+
+.card-jumbo-progrob {
+  background-color: var(--bg-color-main);
+  color: var(--txt-color-main);
+}
+
+.card-hor-isd {
+  background-color: var(--bg-color-snd);
+  color: var(--txt-color-snd);
+}
+
+.card-jumbo-isd {
+  background-color: var(--bg-color-main);
+  color: var(--txt-color-main);
+}
+
+.card-hor-isd {
+  background-color: var(--bg-color-snd);
+  color: var(--txt-color-snd);
+}
+
+.card-jumbo-researches{
+  background-color: var(--bg-color-main);
+  color: var(--txt-color-main);
+}
