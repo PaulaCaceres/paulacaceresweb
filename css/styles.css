@@ -17,11 +17,9 @@ body {
 }
 
 p {
-  color:white;
+  color: white;
 }
-img {
-  width: 50%;
-}
+
 
 /* TITULO */
 
@@ -30,7 +28,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 600px;
+  height: 750px;
 }
 
 #site-jumbotron-title {
@@ -46,6 +44,10 @@ img {
 
 #site-subtitle {
   color: var(--txt-color-main);
+}
+
+.jumbotron img {
+  width: 30%;
 }
 
 /* COLLAPSES */
@@ -92,6 +94,11 @@ img {
 }
 
 /* TARJETAS VERTICALES (CIRCULOS) */
+
+.card-img-top {
+  /*clip-path: inset(25% 0% 25% 0%);*/
+  clip-path: inset(30% 0% 30% 0% round 20% 20%);
+}
 
 .card-vert-uxui {
   background-color: transparent;
@@ -203,7 +210,7 @@ img {
   color: var(--txt-color-snd);
 }
 
-.card-jumbo-researches{
+.card-jumbo-researches {
   background-color: var(--bg-color-main);
   color: var(--txt-color-main);
 }
