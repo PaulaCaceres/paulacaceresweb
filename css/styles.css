@@ -3,7 +3,7 @@
   --bg-color-main-alt: #fdfdfd;
   --bg-color-snd: #d8d8d8;
   --txt-color-main: #f24b4b;
-  --txt-color-snd: #d8d8d8;
+  --txt-color-snd: #f6f6f6;
   --txt-color-dark: #212529;
   --bg-color-uxui: #f2a03d;
   --bg-color-webdev: #f24444;
@@ -14,12 +14,19 @@
 
 body {
   background-color: var(--bg-color-main);
+  min-height: 100%;
 }
 
 p {
   color: white;
 }
 
+/* #main-container {
+  background-image: url(../images/negro-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+} */
 
 /* TITULO */
 
@@ -28,14 +35,17 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 750px;
+  height: 100vh;
+}
+
+#site-cover-content {
+  margin: 0 auto;
+  position: relative;
+  top: 10vh;
 }
 
 #site-jumbotron-title {
   background-color: transparent;
-  text-align: center;
-  /* border-bottom: 1px solid;
-  border-color: var(--txt-color-main); */
 }
 
 #site-title {
@@ -46,9 +56,9 @@ p {
   color: var(--txt-color-main);
 }
 
-.jumbotron img {
+/* .jumbotron img {
   width: 30%;
-}
+} */
 
 /* COLLAPSES */
 
@@ -93,36 +103,76 @@ p {
   text-align: center;
 }
 
-/* TARJETAS VERTICALES (CIRCULOS) */
+/* TARJETAS VERTICALES */
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
 
 .card-img-top {
-  /*clip-path: inset(25% 0% 25% 0%);*/
   clip-path: inset(30% 0% 30% 0% round 20% 20%);
 }
 
 .card-vert-uxui {
-  background-color: transparent;
-  color: var(--txt-color-main);
+  color: var(--txt-color-snd);
+  background-image: url(../images/back-uxui.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 4rem;
+  width: 11rem;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10%;
 }
 
 .card-vert-webdev {
-  background-color: transparent;
-  color: var(--txt-color-main);
+  color: var(--txt-color-snd);
+  background-image: url(../images/back-webdev.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 4rem;
+  width: 11rem;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10%;
 }
 
 .card-vert-progrob {
-  color: var(--txt-color-main);
-  background-color: transparent;
+  color: var(--txt-color-snd);
+  background-image: url(../images/back-progrob.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 4rem;
+  width: 11rem;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10%;
 }
 
 .card-vert-dis {
-  color: var(--txt-color-main);
-  background-color: transparent;
+  color: var(--txt-color-snd);
+  background-image: url(../images/back-isd.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 4rem;
+  width: 11rem;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10%;
 }
 
 .card-vert-res {
-  color: var(--txt-color-main);
-  background-color: transparent;
+  color: var(--txt-color-snd);
+  background-image: url(../images/back-researches.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 4rem;
+  width: 11rem;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10%;
 }
 
 .card-a:link, .card-a:visited, .card-a:active {
@@ -138,79 +188,76 @@ p {
 
 /* SECCIONES */
 
+.section {
+  min-height: 100vh;
+}
+
 #section1 {
-  color: var(--txt-color-main);
+  background-image: url(../images/back-uxui.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 #section2 {
-  color: var(--txt-color-main);
+  background-image: url(../images/back-webdev.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 #section3 {
-  color: var(--txt-color-main);
+  background-image: url(../images/back-progrob.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 #section4 {
-  color: var(--txt-color-main);
+  background-image: url(../images/back-isd.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 #section5 {
-  color: var(--txt-color-main);
+  background-image: url(../images/back-researches.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 /* TARJETAS HORIZONTALES */
 
-.hor-card-img {
-  /* clip-path: inset(30% 0% 30% 0%); */
-  height: 100%;
-}
-
 .card-hor-uxui {
-  background-color: var(--bg-color-snd);
+  background-color: transparent;
   color: var(--txt-color-snd);
-}
-
-.card-jumbo-uxui {
-  background-color: var(--bg-color-main);
-  color: var(--txt-color-main);
 }
 
 .card-hor-webdev {
-  background-color: var(--bg-color-snd);
+  background-color: transparent;
   color: var(--txt-color-snd);
-}
-
-.card-jumbo-webdev {
-  background-color: var(--bg-color-main);
-  color: var(--txt-color-main);
 }
 
 .card-hor-progrob {
-  background-color: var(--bg-color-snd);
+  background-color: transparent;
   color: var(--txt-color-snd);
-}
-
-.card-jumbo-progrob {
-  background-color: var(--bg-color-main);
-  color: var(--txt-color-main);
 }
 
 .card-hor-isd {
-  background-color: var(--bg-color-snd);
+  background-color: transparent;
   color: var(--txt-color-snd);
-}
-
-.card-jumbo-isd {
-  background-color: var(--bg-color-main);
-  color: var(--txt-color-main);
 }
 
 .card-hor-isd {
-  background-color: var(--bg-color-snd);
+  background-color: transparent;
   color: var(--txt-color-snd);
 }
 
-.card-jumbo-researches {
-  background-color: var(--bg-color-main);
-  color: var(--txt-color-main);
+.modal-footer h5, .modal-footer p {
+  color: var(--txt-color-dark);
+}
+
+.hcard-title {
+  margin-left: 10vw;
+  margin-top: 20vh;
+}
+
+.prueba {
+  margin: 0px;
 }

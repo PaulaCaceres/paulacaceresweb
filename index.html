@@ -14,326 +14,556 @@
 
 <body>
   <!-- Main Container -->
-  <div class="container-fluid m-0 p-0">
+  <div class="container-fluid m-0 p-0" id="main-container">
 
     <!-- Cover -->
     <div id="site-cover">
-      <!-- Jumbotron Title -->
-      <div id="site-jumbotron-title" class="jumbotron mb-5 pb-0">
-        <img src="/images/titulo-1.svg" alt="Paula Caceres">
-        <div>
-          <img src="/images/titulo-2.svg" alt="Developer Image and Sound Designer">
+      <div id="site-cover-content">
+        <div class="row justify-content-center no-gutters mb-5">
+          <!-- Jumbotron Title -->
+          <div class="col-10 col-md-5">
+            <div id="site-jumbotron-title" class="jumbotron mt-3 mb-5 pb-0">
+              <img src="/images/titulo-1.svg" alt="Paula Caceres" class="img-fluid">
+              <div>
+                <img src="/images/titulo-2.svg" alt="Developer Image and Sound Designer" class="img-fluid">
+              </div>
+            </div>
+          </div>
         </div>
 
-        <!--
-        <h1 id="site-title" class="display-1">Paula Cáceres</h1>
-        <p id="site-subtitle" class="lead">Developer - Image & Sound Designer</p>
-        -->
-      </div>
-
-      <!-- Bar Container -->
-      <!-- <div class="container container-bar">
-      <div class="row">
-        <div class="col-md-4">
-          <div id="collapse-header-aboutme" data-toggle="collapse" data-target="#collapse-body-aboutme">
-            <h1 class="title-about lead">
-              About me</h1>
-          </div>
-          <div>
-            <h5 id="collapse-body-aboutme" class="text-left lead collapse in">
-              Soy Diseñadora de Imagen y Sonido y Maestranda en Artes Electrónicas de Argentina.
-
-              Comencé mis experimentaciones artísticas en el campo audiovisual hasta encontrarme haciendo en el último
-              año de mi carrera de diseñadora una instalación interactiva lo que me llevó a la maestría.
-
-              Decidí rendir libre el Plan 111mil para certificar mis conocimientos en Java. Cada vez más dentro del área
-              de la programación, seguí profundizando las exploraciones artísticas, esta vez sumandole también
-              electrónica.
-
-              Además de los trabajos individuales, realicé trabajos colaborativos con otros artistas, ya sea creando en
-              conjunto o desarrollando la programación para obras de otros.
-            </h5>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div id="collapse-header-contact" data-toggle="collapse" data-target="#collapse-body-contact">
-            <h1 class="title-contact lead">
-              Contact</h1>
-          </div>
-          <div>
-            <p id="collapse-body-contact" class="text-left lead collapse in">
-              Soy Diseñadora de Imagen y Sonido y Maestranda en Artes Electrónicas de Argentina.
-
-              Comencé mis experimentaciones artísticas en el campo audiovisual hasta encontrarme haciendo en el último
-              año de mi carrera de diseñadora una instalación interactiva lo que me llevó a la maestría.
-
-              Decidí rendir libre el Plan 111mil para certificar mis conocimientos en Java. Cada vez más dentro del área
-              de la programación, seguí profundizando las exploraciones artísticas, esta vez sumandole también
-              electrónica.
-
-              Además de los trabajos individuales, realicé trabajos colaborativos con otros artistas, ya sea creando en
-              conjunto o desarrollando la programación para obras de otros.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div id="collapse-header-experience" data-toggle="collapse" data-target="#collapse-body-experience">
-            <h1 class="title-experience lead">
-              Experience</h1>
-          </div>
-          <div>
-            <p id="collapse-body-experience" class="text-left lead collapse in">
-              Soy Diseñadora de Imagen y Sonido y Maestranda en Artes Electrónicas de Argentina.
-
-              Comencé mis experimentaciones artísticas en el campo audiovisual hasta encontrarme haciendo en el último
-              año de mi carrera de diseñadora una instalación interactiva lo que me llevó a la maestría.
-
-              Decidí rendir libre el Plan 111mil para certificar mis conocimientos en Java. Cada vez más dentro del área
-              de la programación, seguí profundizando las exploraciones artísticas, esta vez sumandole también
-              electrónica.
-
-              Además de los trabajos individuales, realicé trabajos colaborativos con otros artistas, ya sea creando en
-              conjunto o desarrollando la programación para obras de otros.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-      <!-- Vertical Cards Container -->
-      <div id="cards-container" class="container-fluid">
-        <div class="row justify-content-center">
-          <!-- UX/UI Card -->
-          <div class="col-4 col-md-2">
-            <a class="card-a" href="#section1">
-              <div class="card border-0 card-vert-uxui">
-                <img src="./images/ux-ui-1.jpg" class="card-img-top " alt="uxui-logo">
-              </div>
-            </a>
-          </div>
-          <!-- Web Dev Card -->
-          <div class="col-4 col-md-2">
-            <a class="card-a" href="#section2">
-              <div class="card border-0 card-vert-webdev">
-                <img src="./images/web-dev-1.jpg" class="card-img-top" alt="webdev-logo">
-              </div>
-            </a>
-          </div>
-          <!-- Programming & Robotics Card -->
-          <div class="col-4 col-md-2">
-            <a class="card-a" href="#section3">
-              <div class="card border-0 card-vert-progrob">
-                <img src="./images/prog-rob-1.jpg" class="card-img-top" alt="progrob-logo">
-              </div>
-            </a>
-          </div>
-          <!-- Image & Sound Design Card -->
-          <div class="col-4 col-md-2">
-            <a class="card-a" href="#section4">
-              <div class="card border-0 card-vert-dis">
-                <img src="./images/isd-1.jpg" class="card-img-top" alt="dis-logo">
-              </div>
-            </a>
-          </div>
-          <!-- Researches Card -->
-          <div class="col-4 col-md-2">
-            <a class="card-a" href="#section5">
-              <div class="card border-0 card-vert-res">
-                <img src="./images/researches-1.jpg" class="card-img-top" alt="res-logo">
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Horizontal Cards Container -->
-      <div data-spy="scroll" data-target="#nav" data-offset="0">
-        <div class="my-5">
-          <!-- Section 1 Container -->
-          <div id="section1" class="container-fluid px-0">
+        <!-- Vertical Cards Container -->
+        <div id="cards-container" class="container-fluid mt-5">
+          <div class="row justify-content-center">
+            <!-- Web Dev Card -->
+            <div class="col-12 col-md-2 card-container">
+              <a class="card-a" href="#section1">
+                <div class="card card-vert-webdev">
+                  <h5 class="m-0 p-0">Web Dev</h5>
+                </div>
+              </a>
+            </div>
             <!-- UX/UI Card -->
-            <div class="card card-hor-uxui">
-              <div class="container-fluid p-0">
-                <div class="row no-gutters">
-                  <!-- <div class="col-md-3" data-toggle="collapse" data-target="#collapse-body-uxui">
-                  <img src="./images/ux-ixd-ui6.jpg" class="card-img hor-card-img" alt="uxui-logo">
-                </div> -->
-                  <div class="col-md-12" data-toggle="collapse" data-target="#collapse-body-uxui">
-                    <div class="card h-100">
-                      <div class="h-100 h-100 card-jumbo-uxui">
-                        <h1 class="display-4 text-left">UX/UI</h1>
-                        <p class="lead text-left">I love design processes so I do User Experience, User Interface and
-                          Interaction Design.
-                        </p>
-                        <div id="collapse-body-uxui" class="collapse in">
-                          <div class="container-fluid">
-                            <div class="row">
-                              <div class="col-md-4">
-                                <img src="./images/cooking-app.png" alt="Card image"
-                                  style="width:100%">
-                                <div class="card-body">
-                                  <h4 class="card-title">Cooking App</h4>
-                                  <p class="card-text">This is a wireframe mockup designed in Adobe XD</p>
-                                  <a href="#" class="stretched-link"></a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+            <div class="col-12 col-md-2 card-container">
+              <a class="card-a" href="#section2">
+                <div class="card card-vert-uxui">
+                  <h5 class="m-0 p-0">UX/UI</h5>
                 </div>
-              </div>
+              </a>
             </div>
-          </div>
-          <!-- Section 2 Container -->
-          <div id="section2" class="container-fluid px-0">
-            <!-- WEB DEV Card -->
-            <div class="card card-hor-webdev">
-              <div class="container-fluid p-0">
-                <div class="row no-gutters">
-                  <!-- <div class="col-md-3" data-toggle="collapse" data-target="#collapse-body-uxui">
-                  <img src="./images/ux-ixd-ui6.jpg" class="card-img hor-card-img" alt="uxui-logo">
-                </div> -->
-                  <div class="col-md-12" data-toggle="collapse" data-target="#collapse-body-webdev">
-                    <div class="card h-100">
-                      <div class="h-100 h-100 card-jumbo-webdev">
-                        <h1 class="display-4 text-left">WEB DEVELOPMENT</h1>
-                        <p class="lead text-left">I work as a freelance developing websites using different front-end
-                          technologies.
-                        </p>
-                        <div id="collapse-body-webdev" class="collapse in">
-                          <div class="container-fluid">
-                            <div class="row">
-                              <div class="col-md-4">
-                                <img src="./images/cooking-app.png" alt="Card image"
-                                  style="width:100%">
-                                <div class="card-body">
-                                  <h4 class="card-title">Cooking App</h4>
-                                  <p class="card-text">This is a wireframe mockup designed in Adobe XD</p>
-                                  <a href="#" class="stretched-link"></a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Section 3 Container -->
-          <div id="section3" class="container-fluid px-0">
             <!-- Programming & Robotics Card -->
-            <div class="card card-hor-progrob">
-              <div class="container-fluid p-0">
-                <div class="row no-gutters">
-                  <!-- <div class="col-md-3" data-toggle="collapse" data-target="#collapse-body-uxui">
-                  <img src="./images/ux-ixd-ui6.jpg" class="card-img hor-card-img" alt="uxui-logo">
-                </div> -->
-                  <div class="col-md-12" data-toggle="collapse" data-target="#collapse-body-progrob">
-                    <div class="card h-100">
-                      <div class="h-100 h-100 card-jumbo-progrob">
-                        <h1 class="display-4 text-left">Programming & Robotics</h1>
-                        <p class="lead text-left">I studied programming, electronics and robotics in the Master of
-                          Electronic Arts (UNTREF) where I started making my own robots and interactive art
-                          installations. I also develop for other people.
-                        </p>
-                        <div id="collapse-body-progrob" class="collapse in">
-                          <div class="container-fluid">
-                            <div class="row">
-                              <div class="col-md-4">
-                                <img src="./images/cooking-app.png" alt="Card image"
-                                  style="width:100%">
-                                <div class="card-body">
-                                  <h4 class="card-title">Cooking App</h4>
-                                  <p class="card-text">This is a wireframe mockup designed in Adobe XD</p>
-                                  <a href="#" class="stretched-link"></a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+            <div class="col-12 col-md-2 card-container">
+              <a class="card-a" href="#section3">
+                <div class="card card-vert-progrob">
+                  <h5 class="m-0 p-0">Programming & Robotics</h5>
                 </div>
-              </div>
+              </a>
             </div>
-          </div>
-          <!-- Section 4 Container -->
-          <div id="section4" class="container-fluid px-0">
             <!-- Image & Sound Design Card -->
-            <div class="card card-hor-isd">
-              <div class="container-fluid p-0">
-                <div class="row no-gutters">
-                  <!-- <div class="col-md-3" data-toggle="collapse" data-target="#collapse-body-uxui">
-                  <img src="./images/ux-ixd-ui6.jpg" class="card-img hor-card-img" alt="uxui-logo">
-                </div> -->
-                  <div class="col-md-12" data-toggle="collapse" data-target="#collapse-body-isd">
-                    <div class="card h-100">
-                      <div class="h-100 h-100 card-jumbo-isd">
-                        <h1 class="display-4 text-left">Image & Sound Design</h1>
-                        <p class="lead text-left">As an Image and Sound Designer of the University of Buenos Aires I
-                          learned about cinema, photography, art, sound. I worked freelance for different companies,
-                          individuals, and for art biennials as a videographer, photographer and production assistant.
-                        </p>
-                        <div id="collapse-body-isd" class="collapse in">
-                          <div class="container-fluid">
-                            <div class="row">
-                              <div class="col-md-4">
-                                <img src="./images/cooking-app.png" alt="Card image"
-                                  style="width:100%">
-                                <div class="card-body">
-                                  <h4 class="card-title">Cooking App</h4>
-                                  <p class="card-text">This is a wireframe mockup designed in Adobe XD</p>
-                                  <a href="#" class="stretched-link"></a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+            <div class="col-12 col-md-2 card-container">
+              <a class="card-a" href="#section4">
+                <div class="card card-vert-dis">
+                  <h5 class="m-0 p-0">Image & Sound Design</h5>
                 </div>
-              </div>
+              </a>
             </div>
-          </div>
-          <!-- Section 5 Container -->
-          <div id="section5" class="container-fluid px-0">
             <!-- Researches Card -->
-            <div class="card card-hor-researches">
-              <div class="container-fluid p-0">
-                <div class="row no-gutters">
-                  <!-- <div class="col-md-3" data-toggle="collapse" data-target="#collapse-body-uxui">
-                  <img src="./images/ux-ixd-ui6.jpg" class="card-img hor-card-img" alt="uxui-logo">
-                </div> -->
-                  <div class="col-md-12" data-toggle="collapse" data-target="#collapse-body-researches">
-                    <div class="card h-100">
-                      <div class="h-100 h-100 card-jumbo-researches">
-                        <h1 class="display-4 text-left">Researches</h1>
-                        <p class="lead text-left">As a thesis student of the master's degree in electronic arts I find
-                          myself in constant research on different programming languages, robotics and I especially
-                          focus on human computer interaction.</p>
-                        <div id="collapse-body-researches" class="collapse in">
-                          <div class="container-fluid">
-                            <div class="row">
-                              <div class="col-md-4">
-                                <img src="./images/cooking-app.png" alt="Card image"
-                                  style="width:100%">
-                                <div class="card-body">
-                                  <h4 class="card-title">Cooking App</h4>
-                                  <p class="card-text">This is a wireframe mockup designed in Adobe XD</p>
-                                  <a href="#" class="stretched-link"></a>
-                                </div>
+            <div class="col-12 col-md-2 card-container">
+              <a class="card-a" href="#section5">
+                <div class="card card-vert-res">
+                  <h5 class="m-0 p-0">Researches</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Horizontal Cards Container -->
+    <div data-spy="scroll" data-target="#nav" data-offset="0">
+      <div class="m-0 p-0">
+
+        <!-- Section 1 Container -->
+        <div id="section1" class="section container-fluid px-0">
+          <!-- WEB DEV Card -->
+          <div class="border-0 card-hor-web">
+            <div class="container-fluid p-0 pt-1">
+              <div class="hcard-title">
+                <h1 class="display-4 text-left">WEB DEVELOPMENT</h1>
+                <p class="lead text-left">I'm a freelance Full Stack Web Developer. I use different frontend
+                  technologies such as HTML, CSS, SASS, Javascript, Bootstrap 4, Angular JS & Angular, React and also
+                  MEAN Stack.
+                </p>
+              </div>
+              <div class="container-fluid">
+                <div class="row prueba d-flex justify-content-center">
+                  <div class="col-md-3" data-toggle="modal" data-target="#webModalDetail1">
+                    <div class="card-body">
+                      <h4 class="card-title">ToDoList App</h4>
+                      <img src="./images/webdev/todolist-app.jpg" alt="Card image" style="width:100%">
+                    </div>
+                  </div>
+                  <div class="col-md-3" data-toggle="modal" data-target="#webModalDetail2">
+                    <div class="card-body">
+                      <h4 class="card-title">BIM 2018</h4>
+                      <img src="./images/webdev/bim1.jpg" alt="Card image" style="width:100%">
+                    </div>
+                  </div>
+                  <div class="col-md-3" data-toggle="modal" data-target="#webModalDetail3">
+                    <div class="card-body">
+                      <h4 class="card-title">Dietética "Lo de Pérez"</h4>
+                      <img src="./images/webdev/lodeperez-web1.jpg" alt="Card image" style="width:100%">
+                    </div>
+                  </div>
+                  <div class="col-md-3" data-toggle="modal" data-target="#webModalDetail4">
+                    <div class="card-body">
+                      <h4 class="card-title">HCI research website</h4>
+                      <img src="./images/webdev/html-css-js-test1.jpg" alt="Card image" style="width:100%">
+                    </div>
+                  </div>
+                  <!--                   <div class="col-md-3" data-toggle="modal" data-target="#webModalDetail5">
+                    <img src="./images/webdev/todolist-app.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                      <h4 class="card-title">Tour of heroes - Angular</h4>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+              <!-- Modal 1 WEB DEV -->
+              <div class="container-fluid modal-1">
+                <div class="modal fade" id="webModalDetail1" tabindex="-1" role="dialog"
+                  aria-labelledby="webModalDetailTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">ToDoList App</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <!-- Carousel 1 WEB DEV -->
+                        <div id="carouselIndicatorsWebDev1" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselIndicatorsWebDev1" data-slide-to="0"></li>
+                            <li data-target="#carouselIndicatorsWebDev1" data-slide-to="1"></li>
+                            <li data-target="#carouselIndicatorsWebDev1" data-slide-to="2"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item"
+                                  src="http://www.youtube.com/embed/Io01kgPplyA?autoplay=1" allowfullscreen>
+                                </iframe>
                               </div>
                             </div>
+                            <div class="carousel-item">
+                              <img src="./images/webdev/todolist-app2.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/webdev/todolist-app.jpg" alt="Card image" style="width:100%">
+                            </div>
                           </div>
+                          <a class="carousel-control-prev" href="#carouselIndicatorsWebDev1" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselIndicatorsWebDev1" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
                         </div>
+                      </div>
+                      <div class="modal-footer" style="justify-content: start;">
+                        <h5 class="text-center">ToDoList App</h5>
+                        <p>REST API MEAN Stack - I developed this ToDoList Application Frontend in HTML, SASS,
+                          Javascript, Bootstrap 4, Angular JS and the Backend in Mongo DB, Mongoose, Express. This is a
+                          CRUD application so it allows you to do opperations such as create, read, update and delete.
+                          As it was developed with Bootstrap 4 it's also mobile responsive.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal 2 WEB DEV-->
+              <div class="container-fluid modal-1">
+                <div class="modal fade" id="webModalDetail2" tabindex="-1" role="dialog"
+                  aria-labelledby="webModalDetailTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">BIM 2018</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <!-- Carousel 2 WEB DEV -->
+                        <div id="carouselIndicatorsWebDev2" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselIndicatorsWebDev2" data-slide-to="0"></li>
+                            <li data-target="#carouselIndicatorsWebDev2" data-slide-to="1"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item">
+                              <img src="./images/webdev/bim2.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item active">
+                              <img src="./images/webdev/bim1.jpg" alt="Card image" style="width:100%">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselIndicatorsWebDev2" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselIndicatorsWebDev2" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="modal-footer" style="justify-content: start;">
+                        <h5 class="text-center">Frontend development BIM 2018</h5>
+                        <p>I work at the BIM 2018 (Bienal de la Imagen en Movimiento) doing frontend development: HTML,
+                          CSS, JS, jQuery, Bootstrap.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal 3 WEB DEV -->
+              <div class="container-fluid modal-1">
+                <div class="modal fade" id="webModalDetail3" tabindex="-1" role="dialog"
+                  aria-labelledby="webModalDetailTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Online Store - Dietética "Lo de Pérez"</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <!-- Carousel 3 WEB DEV -->
+                        <div id="carouselIndicatorsWebDev3" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselIndicatorsWebDev3" data-slide-to="0"></li>
+                            <li data-target="#carouselIndicatorsWebDev3" data-slide-to="1"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="./images/webdev/lodeperez-web1.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/webdev/lodeperez-web2.jpg" alt="Card image" style="width:100%">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselIndicatorsWebDev3" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselIndicatorsWebDev3" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="modal-footer" style="justify-content: start;">
+                        <h5 class="text-center">Online Store - Dietética "Lo de Pérez"</h5>
+                        <p class="card-text">Web development with html and css for an online store.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal 4 WEB DEV -->
+              <div class="container-fluid modal-1">
+                <div class="modal fade" id="webModalDetail4" tabindex="-1" role="dialog"
+                  aria-labelledby="webModalDetailTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">HCI research website</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <!-- Carousel 4 WEB DEV -->
+                        <div id="carouselIndicatorsWebDev4" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselIndicatorsWebDev4" data-slide-to="0"></li>
+                            <li data-target="#carouselIndicatorsWebDev4" data-slide-to="1"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="./images/webdev/html-css-js-test1.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/webdev/html-css-js-test2.jpg" alt="Card image" style="width:100%">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselIndicatorsWebDev4" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselIndicatorsWebDev4" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="modal-footer" style="justify-content: start;">
+                        <h5 class="text-center">HCI research website</h5>
+                        <p class="card-text">Website to gather information about Human Computer Interaction links,
+                          books, papers, references. It was developed in HTML, CSS, jQuery and Javascript </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal 5 WEB DEV -->
+              <!--               <div class="container-fluid modal-1">
+                <div class="modal fade" id="webModalDetail5" tabindex="-1" role="dialog"
+                  aria-labelledby="webModalDetailTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Tour of Heroes - Angular</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body"> -->
+              <!-- Carousel 5 WEB DEV -->
+              <!--                         <div id="carouselIndicatorsWebDev5" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselIndicatorsWebDev5" data-slide-to="0"></li>
+                            <li data-target="#carouselIndicatorsWebDev5" data-slide-to="1"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item">
+                              <img src="./images/webdev/todolist-app.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item active">
+                              <img src="./images/webdev/todolist-app.jpg" alt="Card image" style="width:100%">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselIndicatorsWebDev5" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselIndicatorsWebDev5" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="modal-footer" style="justify-content: start;">
+                        <h5 class="text-center">Tour of Heroes - Angular</h5>
+                        <p class="card-text">Website developed in Angular</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Section 2 Container -->
+        <div id="section2" class="section container-fluid px-0">
+          <!-- UX/UI Card -->
+          <div class="border-0 card-hor-uxui">
+            <div class="container-fluid p-0 pt-1">
+              <div class="hcard-title">
+                <h1 class="display-4 text-left">UX/UI
+                </h1>
+                <p class="lead text-left">I'm a Visual & Sound Designer and I love design processes, defining an idea,
+                  prototyping and testing. I learned about User Experience, User Interface and
+                  Interaction Design to offer creative and useful solutions to companies and clientes websites and
+                  applications. To
+                  achieve that goal I always try to learn about what's new in design.
+                </p>
+              </div>
+              <div class="container-fluid">
+                <div class="row prueba d-flex justify-content-center">
+                  <div class="col-md-3" data-toggle="modal" data-target="#uxuiModalDetail1">
+                    <div class="card-body">
+                      <h4 class="card-title">Cooking App</h4>
+                      <img src="./images/uxui/cooking-app.jpg" alt="Card image" style="width:100%">
+                    </div>
+                  </div>
+                  <div class="col-md-3" data-toggle="modal" data-target="#uxuiModalDetail2">
+                    <div class="card-body">
+                      <h4 class="card-title">ToDoList App</h4>
+                      <img src="./images/uxui/todolist-app2.jpg" alt="Card image" style="width:100%">
+                    </div>
+                  </div>
+                  <div class="col-md-3" data-toggle="modal" data-target="#uxuiModalDetail3">
+                    <div class="card-body">
+                      <h4 class="card-title">Dietética "Lo de Pérez"</h4>
+                      <img src="./images/uxui/lodeperez2.jpg" alt="Card image" style="width:100%">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Modal 1 UX/UI -->
+              <div class="container-fluid modal-1">
+                <div class="modal fade" id="uxuiModalDetail1" tabindex="-1" role="dialog"
+                  aria-labelledby="uxuiModalDetailTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Cooking App</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <!-- Carousel 1 UX/UI -->
+                        <div id="carouselIndicators-uxui1" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselIndicators-uxui1" data-slide-to="0"></li>
+                            <li data-target="#carouselIndicators-uxui1" data-slide-to="1"></li>
+                            <li data-target="#carouselIndicators-uxui1" data-slide-to="2"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item"
+                                  src="http://www.youtube.com/embed/dLzr7hMtKj0?autoplay=1" allowfullscreen></iframe>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/uxui/cooking-app2.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/uxui/cooking-app.jpg" alt="Card image" style="width:100%">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselIndicators-uxui1" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselIndicators-uxui1" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="modal-footer" style="justify-content: start;">
+                        <h5 class="text-center">Cooking App</h5>
+                        <p>This is a prototype of a Cooking App designed in Adobe XD</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal 2 UX/UI-->
+              <div class="container-fluid modal-1">
+                <div class="modal fade" id="uxuiModalDetail2" tabindex="-1" role="dialog"
+                  aria-labelledby="uxuiModalDetailTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">ToDoList App</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <!-- Carousel 2 UX/UI -->
+                        <div id="carouselIndicators-uxui2" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselIndicators-uxui2" data-slide-to="0"></li>
+                            <li data-target="#carouselIndicators-uxui2" data-slide-to="1"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="./images/uxui/todolist-app2.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/uxui/todolist-app.jpg" alt="Card image" style="width:100%">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselIndicators-uxui2" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselIndicators-uxui2" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="modal-footer" style="justify-content: start;">
+                        <h5 class="text-center">ToDoList App</h5>
+                        <p>Before giving life to this ToDoList application I designed it in Adobe XD</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal 3 UX/UI -->
+              <div class="container-fluid modal-1">
+                <div class="modal fade" id="uxuiModalDetail3" tabindex="-1" role="dialog"
+                  aria-labelledby="uxuiModalDetailTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Online Store - Dietética "Lo de Pérez"</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <!-- Carousel 3 UX/UI -->
+                        <div id="carouselIndicators-uxui3" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselIndicators-uxui3" data-slide-to="0"></li>
+                            <li data-target="#carouselIndicators-uxui3" data-slide-to="1"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item">
+                              <img src="./images/uxui/lodeperez.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item active">
+                              <img src="./images/uxui/lodeperez2.jpg" alt="Card image" style="width:100%">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselIndicators-uxui3" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselIndicators-uxui3" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="modal-footer" style="justify-content: start;">
+                        <h5 class="text-center">Dietética "Lo de Pérez"</h5>
+                        <p class="card-text">This are the mockups and final designs for a client who runs a dietetics
+                          in Buenos Aires</p>
                       </div>
                     </div>
                   </div>
@@ -341,11 +571,788 @@
               </div>
             </div>
           </div>
+        </div>
 
-          <script src="./node_modules/jquery/dist/jquery.min.js"></script>
-          <script type="text/js" src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
-          <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-          <script src="./js/index.js"></script>
+        <!-- Section 3 Container -->
+        <div id="section1" class="section container-fluid px-0">
+          <!-- PROG & ROB Card -->
+          <div class="border-0 card-hor-progrob">
+            <div class="container-fluid p-0 pt-1">
+              <div class="hcard-title">
+                <h1 class="display-4 text-left">Programming & Robotics
+                </h1>
+                <p class="lead text-left">I studied programming, electronics and robotics in the Master of
+                  Electronic Arts (UNTREF) where I started making my own robots and interactive art
+                  installations. I also develop for other people.
+                </p>
+              </div>
+              <div class="container-fluid">
+                <div class="row prueba d-flex justify-content-center">
+                  <div class="col-md-3" data-toggle="modal" data-target="#progrobModalDetail1">   
+                    <div class="card-body">
+                      <h4 class="card-title">"Presencias"</h4>
+                      <img src="./images/progrob/presencias.jpg" alt="Card image" style="width:100%">
+                    </div>
+                  </div>
+
+                  <div class="col-md-3" data-toggle="modal" data-target="#progrobModalDetail2">
+                    <div class="card-body">
+                      <h4 class="card-title">"Breve suspensión</h4>
+                      <img src="./images/progrob/breve-suspension.jpg" alt="Card image" style="width:100%">
+                    </div>
+                  </div>
+
+                  <div class="col-md-3" data-toggle="modal" data-target="#progrobModalDetail3"> 
+                    <div class="card-body">
+                      <h4 class="card-title">"Interiores"</h4>
+                      <img src="./images/webdev/todolist-app.jpg" alt="Card image" style="width:100%">
+                    </div>
+                  </div>
+
+                  <div class="col-md-3" data-toggle="modal" data-target="#progrobModalDetail4">
+                    <div class="card-body">
+                      <h4 class="card-title">Electrotextiles</h4>
+                      <img src="./images/progrob/electrotextil2.jpg" alt="Card image" style="width:100%">
+                    </div>
+                  </div>
+
+                  <div class="col-md-3" data-toggle="modal" data-target="#progrobModalDetail5">
+                    <div class="card-body">
+                      <h4 class="card-title">Luminiscente</h4>
+                      <img src="./images/progrob/luminiscente1.jpg" alt="Card image" style="width:100%">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Modal 1 PROG & ROB -->
+              <div class="container-fluid modal-1">
+                <div class="modal fade" id="progrobModalDetail1" tabindex="-1" role="dialog"
+                  aria-labelledby="progrobModalDetailTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">"Presencias"</h5re>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+                      <div class="modal-body">
+                        <!-- Carousel 1 PROG & ROB -->
+                        <div id="carouselIndicatorsProgRob1" class=" carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselIndicatorsProgRob1" data-slide-to="0"></li>
+                            <li data-target="#carouselIndicatorsProgRob1" data-slide-to="1"></li>
+                            <li data-target="#carouselIndicatorsProgRob1" data-slide-to="2"></li>
+                            <li data-target="#carouselIndicatorsProgRob1" data-slide-to="3"></li>
+                            <li data-target="#carouselIndicatorsProgRob1" data-slide-to="4"></li>
+                            <li data-target="#carouselIndicatorsProgRob1" data-slide-to="5"></li>
+                            <li data-target="#carouselIndicatorsProgRob1" data-slide-to="6"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/DkkUemIHgcM"
+                                  allowfullscreen></iframe>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/41gAik9r6t8"
+                                  allowfullscreen></iframe>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/progrob/presencias.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/progrob/presencias2.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/progrob/presencias3.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/progrob/presencias4.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/progrob/presencias5.jpg" alt="Card image" style="width:100%">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselIndicatorsProgRob1" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselIndicatorsProgRob1" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="modal-footer" style="justify-content: start;">
+                        <h5 class="text-center">"Presencias"</h5>
+                        <p>Interactive and electronic art installation developed in Processing and Arduino. The
+                          visuals
+                          were designed in After Effects. It was exhibited at "Circuito Abierto" in Panal
+                          (2017) and at
+                          MUNTREF museum (2018)</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal 2 PROG & ROB-->
+              <div class="container-fluid modal-1">
+                <div class="modal fade" id="progrobModalDetail2" tabindex="-1" role="dialog"
+                  aria-labelledby="progrobModalDetailTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">"Breve suspensión"</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <!-- Carousel 2 PROG & ROB -->
+                        <div id="carouselIndicatorsProgRob2" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselIndicatorsProgRob2" data-slide-to="0"></li>
+                            <li data-target="#carouselIndicatorsProgRob2" data-slide-to="1"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item">
+                              <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/_MQggPzRAMY"
+                                  allowfullscreen></iframe>
+                              </div>
+                            </div>
+                            <div class="carousel-item active">
+                              <img src="./images/progrob/breve-suspension.jpg" alt="Card image" style="width:100%">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselIndicatorsProgRob2" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselIndicatorsProgRob2" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="modal-footer" style="justify-content: start;">
+                        <h5 class="text-center">"Breve suspensión"</h5>
+                        <p>Interactive art installation developed in Processing. It was exhibited at cheLA
+                          "Satélite
+                          XIII" (2016)</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal 3 PROG & ROB -->
+              <div class="container-fluid modal-1">
+                <div class="modal fade" id="progrobModalDetail3" tabindex="-1" role="dialog"
+                  aria-labelledby="progrobModalDetailTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">"Interiores"</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <!-- Carousel 3 PROG & ROB -->
+                        <div id="carouselIndicatorsProgRob3" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselIndicatorsProgRob3" data-slide-to="0"></li>
+                            <li data-target="#carouselIndicatorsProgRob3" data-slide-to="1"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item">
+                              <img src="./images/webdev/todolist-app.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item active">
+                              <img src="./images/webdev/todolist-app.jpg" alt="Card image" style="width:100%">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselIndicatorsProgRob3" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselIndicatorsProgRob3" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="modal-footer" style="justify-content: start;">
+                        <h5 class="text-center">"Interiores"</h5>
+                        <p class="card-text">Interactive art installation developed in Processing exhibited at
+                          FADU -
+                          "Noche de los Museos"</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal 4 PROG & ROB -->
+              <div class="container-fluid modal-1">
+                <div class="modal fade" id="progrobModalDetail4" tabindex="-1" role="dialog"
+                  aria-labelledby="progrobModalDetailTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Electrotextiles</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <!-- Carousel 4 PROG & ROB -->
+                        <div id="carouselIndicatorsProgRob4" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselIndicatorsProgRob4" data-slide-to="0"></li>
+                            <li data-target="#carouselIndicatorsProgRob4" data-slide-to="1"></li>
+                            <li data-target="#carouselIndicatorsProgRob4" data-slide-to="2"></li>
+                            <li data-target="#carouselIndicatorsProgRob4" data-slide-to="3"></li>
+                            <li data-target="#carouselIndicatorsProgRob4" data-slide-to="4"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="./images/progrob/electrotextil2.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/progrob/electrotextil1.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/progrob/electrotextil3.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/progrob/electrotextil4.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/progrob/electrotextil5.jpg" alt="Card image" style="width:100%">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselIndicatorsProgRob4" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselIndicatorsProgRob4" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="modal-footer" style="justify-content: start;">
+                        <h5 class="text-center">Electrotextiles</h5>
+                        <p class="card-text">Electrotextiles mixed electronics and fabrics. This piece was made
+                          with
+                          electronics, batteries and different fabrics.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal 5 PROG & ROB -->
+              <div class="container-fluid modal-1">
+                <div class="modal fade" id="progrobModalDetail5" tabindex="-1" role="dialog"
+                  aria-labelledby="progrobModalDetailTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">"Luminiscente"</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <!-- Carousel 5 PROG & ROB -->
+                        <div id="carouselIndicatorsProgRob5" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselIndicatorsProgRob5" data-slide-to="0"></li>
+                            <li data-target="#carouselIndicatorsProgRob5" data-slide-to="1"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item"
+                                  src="http://www.youtube.com/embed/kf2sKRonG_o?autoplay=1" allowfullscreen>
+                                </iframe>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/progrob/luminiscente1.jpg" alt="Card image" style="width:100%">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselIndicatorsProgRob5" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselIndicatorsProgRob5" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="modal-footer" style="justify-content: start;">
+                        <h5 class="text-center">"Luminiscente"</h5>
+                        <p class="card-text">Robot</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section 4 Container -->
+        <div id="section4" class="section container-fluid px-0">
+          <!-- Image & Sound Design Card -->
+          <div class="border-0 card-hor-isd">
+            <div class="container-fluid p-0 pt-1">
+              <div class="hcard-title">
+                <h1 class="display-4 text-left">Image & Sound Design</h1>
+                <p class="lead text-left">As an Image and Sound Designer of the University of Buenos Aires I
+                  learned about cinema, photography, art, sound. I worked freelance for different companies,
+                  individuals, and for art biennials as a videographer, photographer and production assistant.
+                </p>
+              </div>
+              <div class="container-fluid">
+                <div class="row prueba d-flex justify-content-center">
+                  <div class="col-md-3" data-toggle="modal" data-target="#isdModalDetail1">
+                    <div class="card-body">
+                      <h4 class="card-title">CZ Drinks</h4>
+                      <img src="./images/isd/czdrinks2.jpg" alt="Card image" style="width:100%">
+                    </div>
+                  </div>
+                  <div class="col-md-3" data-toggle="modal" data-target="#isdModalDetail2">
+                    <div class="card-body">
+                      <h4 class="card-title">Travel experiences in argentina</h4>
+                      <img src="./images/isd/travels3.jpg" alt="Card image" style="width:100%">
+                    </div>
+                  </div>
+                  <div class="col-md-3" data-toggle="modal" data-target="#isdModalDetail3">
+                    <div class="card-body">
+                      <h4 class="card-title">Product photography</h4>
+                      <img src="./images/webdev/todolist-app.jpg" alt="Card image" style="width:100%">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Modal 1 ISD -->
+              <div class="container-fluid modal-1">
+                <div class="modal fade" id="isdModalDetail1" tabindex="-1" role="dialog"
+                  aria-labelledby="isdModalDetailTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">CZ Drinks</h5re>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+                      <div class="modal-body">
+                        <div id="carouselIndicators-isd1" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselIndicators-isd1" data-slide-to="0"></li>
+                            <li data-target="#carouselIndicators-isd1" data-slide-to="1"></li>
+                            <li data-target="#carouselIndicators-isd1" data-slide-to="2"></li>
+                            <li data-target="#carouselIndicators-isd1" data-slide-to="3"></li>
+                            <li data-target="#carouselIndicators-isd1" data-slide-to="4"></li>
+                            <li data-target="#carouselIndicators-isd1" data-slide-to="5"></li>
+                            <li data-target="#carouselIndicators-isd1" data-slide-to="6"></li>
+                            <li data-target="#carouselIndicators-isd1" data-slide-to="7"></li>
+                            <li data-target="#carouselIndicators-isd1" data-slide-to="8"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="./images/isd/czdrinks1.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/isd/czdrinks2.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/isd/czdrinks3.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/isd/czdrinks4.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/isd/czdrinks5.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/isd/czdrinks6.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/isd/czdrinks7.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/isd/czdrinks8.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/isd/czdrinks9.jpg" alt="Card image" style="width:100%">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselIndicators-isd1" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselIndicators-isd1" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="modal-footer" style="justify-content: start;">
+                        <h5 class="text-center">CZ Drinks</h5>
+                        <p>CZ Drinks photo events</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal 2 ISD-->
+              <div class="container-fluid modal-1">
+                <div class="modal fade" id="isdModalDetail2" tabindex="-1" role="dialog"
+                  aria-labelledby="isdModalDetailTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Travel experiences in argentina</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div id="carouselIndicators-isd2" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselIndicators-isd2" data-slide-to="0"></li>
+                            <li data-target="#carouselIndicators-isd2" data-slide-to="1"></li>
+                            <li data-target="#carouselIndicators-isd2" data-slide-to="2"></li>
+                            <li data-target="#carouselIndicators-isd2" data-slide-to="3"></li>
+                            <li data-target="#carouselIndicators-isd2" data-slide-to="4"></li>
+                            <li data-target="#carouselIndicators-isd2" data-slide-to="5"></li>
+                            <li data-target="#carouselIndicators-isd2" data-slide-to="6"></li>
+                            <li data-target="#carouselIndicators-isd2" data-slide-to="7"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="./images/isd/travels1.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/isd/travels2.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/isd/travels3.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/isd/travels4.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/isd/travels5.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/isd/travels6.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/isd/travels7.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/isd/travels8.jpg" alt="Card image" style="width:100%">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselIndicators-isd2" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselIndicators-isd2" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="modal-footer" style="justify-content: start;">
+                        <h5 class="text-center">Travel experiences</h5>
+                        <p>Travel experiences around Latin America</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal 3 ISD -->
+              <div class="container-fluid modal-1">
+                <div class="modal fade" id="isdModalDetail3" tabindex="-1" role="dialog"
+                  aria-labelledby="isdModalDetailTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Product photography</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div id="carouselIndicators-isd3" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselIndicators-isd3" data-slide-to="0"></li>
+                            <li data-target="#carouselIndicators-isd3" data-slide-to="1"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item">
+                              <img src="./images/webdev/todolist-app.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item active">
+                              <img src="./images/webdev/todolist-app.jpg" alt="Card image" style="width:100%">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselIndicators-isd3" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselIndicators-isd3" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="modal-footer" style="justify-content: start;">
+                        <h5 class="text-center">Product photography</h5>
+                        <p class="card-text">Clients as Boca</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section 5 Container -->
+        <div id="section5" class="section container-fluid px-0">
+          <!-- Researches card -->
+          <div class="border-0 card-hor-researches">
+            <div class="container-fluid p-0 pt-1">
+              <div class="hcard-title">
+                <h1 class="display-4 text-left">Researches</h1>
+                <p class="lead text-left">As a thesis student of the master's degree in electronic arts I find
+                  myself in constant research on different programming languages, robotics and I especially
+                  focus on human computer interaction.</p>
+              </div>
+              <div class="container-fluid">
+                <div class="row prueba d-flex justify-content-center">
+                  <div class="col-md-3" data-toggle="modal" data-target="#researchesModalDetail1">
+                    <div class="card-body">
+                      <h4 class="card-title">Human Computer Interaction</h4>
+                      <img src="./images/researches/html-css-js-test2.jpg" alt="Card image" style="width:100%">
+                    </div>
+                  </div>
+                  <div class="col-md-3" data-toggle="modal" data-target="#researchesModalDetail2"> 
+                    <div class="card-body">
+                      <h4 class="card-title">3D Printer</h4>
+                      <img src="./images/researches/3dprinter2.jpg" alt="Card image" style="width:100%">
+                    </div>
+                  </div>
+                  <div class="col-md-3" data-toggle="modal" data-target="#researchesModalDetail3">
+                    <div class="card-body">
+                      <h4 class="card-title">Master of Electronic Arts - UNTREF</h4>
+                      <img src="./images/researches/mae.jpg" alt="Card image" style="width:100%">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Modal 1 Researches -->
+              <div class="container-fluid modal-1">
+                <div class="modal fade" id="researchesModalDetail1" tabindex="-1" role="dialog"
+                  aria-labelledby="researchesModalDetailTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Human Computer Interaction</h5re>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+                      <div class="modal-body">
+                        <!-- Carousel 1 Researches -->
+                        <div id="carouselIndicatorsResearches1" class=" carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselIndicatorsResearches1" data-slide-to=" 0"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="./images/researches/html-css-js-test2.jpg" alt="Card image" style="width:100%">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselIndicatorsResearches1" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselIndicatorsResearches1" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="modal-footer" style="justify-content: start;">
+                        <h5 class="text-center">Human Computer Interaction</h5>
+                        <p>Research about HCI</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal 2 Researches-->
+              <div class="container-fluid modal-1">
+                <div class="modal fade" id="researchesModalDetail2" tabindex="-1" role="dialog"
+                  aria-labelledby="researchesModalDetailTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">3D Printer</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <!-- Carousel 2 Researches -->
+                        <div id="carouselIndicatorsResearches2" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselIndicatorsResearches2" data-slide-to="0"></li>
+                            <li data-target="#carouselIndicatorsResearches2" data-slide-to="1"></li>
+                            <li data-target="#carouselIndicatorsResearches2" data-slide-to="2"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <!--                             <div class="carousel-item active">
+                      <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item"
+                          src="http://www.youtube.com/embed/Io01kgPplyA?autoplay=1" allowfullscreen></iframe>
+                      </div>
+                    </div> -->
+                            <div class="carousel-item">
+                              <img src="./images/researches/3dprinter.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item active">
+                              <img src="./images/researches/3dprinter2.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/researches/3dprinter3.jpg" alt="Card image" style="width:100%">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselIndicatorsResearches2" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselIndicatorsResearches2" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="modal-footer" style="justify-content: start;">
+                        <h5 class="text-center">3D Printer</h5>
+                        <p>3D printer model Prusa i3 made following different tutorials as the components were
+                          bought
+                          separately and were not a kit. It's itself an investigation about electronic and
+                          mecanic. Also
+                          it was developed with the intention that in the future it will serve to create the
+                          necessary
+                          supports for different pieces that experiment with HCI </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal 3 Researches -->
+              <div class="container-fluid modal-1">
+                <div class="modal fade" id="researchesModalDetail3" tabindex="-1" role="dialog"
+                  aria-labelledby="researchesModalDetailTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Master of Electronic Arts - UNTREF</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <!-- Carousel 1 Researches -->
+                        <div id="carouselIndicatorsResearches3" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselIndicatorsResearches3" data-slide-to="0"></li>
+                            <li data-target="#carouselIndicatorsResearches3" data-slide-to="1"></li>
+                            <li data-target="#carouselIndicatorsResearches3" data-slide-to="2"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item">
+                              <img src="./images/researches/mae.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item active">
+                              <img src="./images/researches/mae2.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./images/researches/mae3.jpg" alt="Card image" style="width:100%">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselIndicatorsResearches3" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselIndicatorsResearches3" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="modal-footer" style="justify-content: start;">
+                        <h5 class="text-center">Master of Electronic Arts - UNTREF</h5>
+                        <p class="card-text">These are different approaches to various viscoelastic and
+                          conductive
+                          materials.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script type="text/js" src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="./js/index.js"></script>
 </body>
 
 </html>
