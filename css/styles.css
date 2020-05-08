@@ -5,19 +5,20 @@
   --txt-color-main: #f24b4b;
   --txt-color-snd: #f6f6f6;
   --txt-color-dark: #212529;
-  --bg-color-uxui: #f2a03d;
-  --bg-color-webdev: #f24444;
-  --bg-color-progrob: #ecb00c;
-  --bg-color-dis: #324fa6;
-  --bg-color-res: #f1bd2e;
+  --bg-color-webdev: #EC4D0C;
+  --bg-color-uxui: #F29F05;
+  --bg-color-progrob: #023059;
+  --bg-color-isd: #D9AB9A;
+  --bg-color-res: #F20F38;
 }
 
 body {
   background-color: var(--bg-color-main);
   min-height: 100%;
+  color:white;
 }
 
-p {
+h1 {
   color: white;
 }
 
@@ -31,7 +32,8 @@ p {
 /* TITULO */
 
 #site-cover {
-  background-image: url(../images/negro-2.jpg);
+ background-image: url(../images/negro-2.jpg); 
+  /* background-color:black; */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -115,9 +117,9 @@ p {
   clip-path: inset(30% 0% 30% 0% round 20% 20%);
 }
 
-.card-vert-uxui {
+.card-vert-webdev {
   color: var(--txt-color-snd);
-  background-image: url(../images/back-uxui.jpg);
+  background-image: url(../images/back-5.jpg);
   background-position: center;
   background-size: cover;
   height: 4rem;
@@ -127,9 +129,9 @@ p {
   border-radius: 10%;
 }
 
-.card-vert-webdev {
+.card-vert-uxui {
   color: var(--txt-color-snd);
-  background-image: url(../images/back-webdev.jpg);
+  background-image: url(../images/back-4.jpg);
   background-position: center;
   background-size: cover;
   height: 4rem;
@@ -141,7 +143,7 @@ p {
 
 .card-vert-progrob {
   color: var(--txt-color-snd);
-  background-image: url(../images/back-progrob.jpg);
+  background-image: url(../images/back-3.jpg);
   background-position: center;
   background-size: cover;
   height: 4rem;
@@ -153,7 +155,7 @@ p {
 
 .card-vert-dis {
   color: var(--txt-color-snd);
-  background-image: url(../images/back-isd.jpg);
+  background-image: url(../images/back-2.jpg);
   background-position: center;
   background-size: cover;
   height: 4rem;
@@ -165,7 +167,7 @@ p {
 
 .card-vert-res {
   color: var(--txt-color-snd);
-  background-image: url(../images/back-researches.jpg);
+  background-image: url(../images/back-1.jpg);
   background-position: center;
   background-size: cover;
   height: 4rem;
@@ -192,32 +194,38 @@ p {
   min-height: 100vh;
 }
 
+/* WEB DEV */
 #section1 {
-  background-image: url(../images/back-uxui.jpg);
+  /* background-image: url(../images/negro-1.jpg); */
+  background-color:var(--bg-color-webdev); 
   background-position: center;
   background-size: cover;
 }
-
+/* UX/UI */
 #section2 {
-  background-image: url(../images/back-webdev.jpg);
+  /* background-image: url(../images/back-uxui.jpg); */
+  background-color:var(--bg-color-uxui);
   background-position: center;
   background-size: cover;
 }
-
+/* PROG/ROB */
 #section3 {
-  background-image: url(../images/back-progrob.jpg);
+  /* background-image: url(../images/back-progrob.jpg); */
+  background-color:var(--bg-color-progrob);
   background-position: center;
   background-size: cover;
 }
-
+/* ISD */
 #section4 {
-  background-image: url(../images/back-isd.jpg);
+  /* background-image: url(../images/back-isd.jpg); */
+  background-color:var(--bg-color-isd);
   background-position: center;
   background-size: cover;
 }
-
+/* RESEARCHES */
 #section5 {
-  background-image: url(../images/back-researches.jpg);
+  /* background-image: url(../images/back-researches.jpg); */
+  background-color:var(--bg-color-res);
   background-position: center;
   background-size: cover;
 }
@@ -253,11 +261,20 @@ p {
   color: var(--txt-color-dark);
 }
 
-.hcard-title {
+.hcard-main-title {
   margin-left: 10vw;
   margin-top: 20vh;
 }
 
-.prueba {
-  margin: 0px;
+.hcard-title {
+  height: 4rem;
+}
+
+.footer {
+  background-color: transparent;
+  margin-bottom:0;
+}
+
+.footer-links{
+  color:#c9cfd6;
 }
